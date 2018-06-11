@@ -7,5 +7,5 @@ install:
   - pip install -r deepppl/requirements.txt --progress-bar off
 # command to run tests
 script:
-  - cd deeppl
+  - cd deepppl
   - python dpplc.py tests/good/coin.stan # or py.test for Python versions 3.5 and below

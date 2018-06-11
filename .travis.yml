@@ -4,7 +4,7 @@ python:
   - "3.6"
 # command to install dependencies
 before_install:
-  - sudo apt-get install -y antlr
+  - sudo apt-get install -y antlr4
 install:
   - pip install --upgrade pip
   - pip install -r deepppl/requirements.txt --progress-bar off
